@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="nb-NO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kontakt Spinbara Casino i Norge. Vi tilbyr rask og pålitelig kundestøtte via live chat, e-post og mer. Vi er her for å hjelpe deg døgnet rundt.">
+  <title>Kontakt Oss | Spinbara Casino Norge – Vi Er Her For Deg</title>
+  <link rel="canonical" href="https://spinbaracasinos.no/contact-us/">
+  <link rel="icon" type="image/x-icon" href="../spinbara images/favicon (2).ico">
+  <style>
+
+    :root {
+      --header-footer: #071064;
+      --action: #92ca01;
+      --main-bg: #dcdaf9;
+      --text-dark: #0a1238;
+      --surface: #ffffff;
+      --radius: 16px;
+      --shadow: 0 12px 24px rgba(7, 16, 100, 0.14);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Trebuchet MS", Verdana, sans-serif;
+      color: var(--text-dark);
+      background:
+        radial-gradient(circle at 12% 10%, rgba(146, 202, 1, 0.2), transparent 32%),
+        radial-gradient(circle at 90% 20%, rgba(7, 16, 100, 0.12), transparent 40%),
+        var(--main-bg);
+      line-height: 1.55;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.2;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(1140px, 92%);
+      margin: 0 auto;
+    }
+
+    header {
+      background: var(--header-footer);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      box-shadow: 0 8px 18px rgba(7, 16, 100, 0.28);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 10px 0;
+      min-height: 64px;
+    }
+
+    .logo img {
+      width: auto;
+      height: 44px;
+    }
+
+    .main-nav {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      margin-left: auto;
+      margin-right: 16px;
+      color: #f3f6ff;
+      font-weight: 700;
+    }
+
+    .main-nav a:hover {
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    .auth-buttons {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      border: 0;
+      border-radius: 999px;
+      cursor: pointer;
+      font-weight: 800;
+      padding: 10px 16px;
+      transition: transform 0.2s ease, filter 0.2s ease;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.04);
+    }
+
+    .btn-auth {
+      background: var(--action);
+      color: var(--header-footer);
+    }
+
+    main {
+      padding: 34px 0;
+    }
+
+    .section-card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: clamp(18px, 3vw, 30px);
+    }
+
+    .article-content h1 {
+      font-size: clamp(1.7rem, 3vw, 2.6rem);
+      margin-bottom: 16px;
+    }
+
+    .article-content h2 {
+      font-size: clamp(1.25rem, 2.4vw, 1.75rem);
+      margin-top: 24px;
+      margin-bottom: 10px;
+    }
+
+    .article-content h3 {
+      font-size: clamp(1.08rem, 2vw, 1.3rem);
+      margin-top: 18px;
+      margin-bottom: 8px;
+    }
+
+    .article-content p,
+    .article-content ul,
+    .article-content ol,
+    .article-content table {
+      margin-top: 12px;
+    }
+
+    .article-content ul,
+    .article-content ol {
+      padding-left: 22px;
+    }
+
+    .article-content li + li {
+      margin-top: 6px;
+    }
+
+    .article-content table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 520px;
+      background: #f8f9ff;
+    }
+
+    .article-content th,
+    .article-content td {
+      border: 1px solid #d3d8ff;
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .article-content th {
+      background: #e8ebff;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin-top: 12px;
+    }
+
+    .form-card {
+      margin-top: 18px;
+      border: 1px solid #d7ddff;
+      border-radius: 12px;
+      background: #f8f9ff;
+      padding: 16px;
+    }
+
+    .form-card h2 {
+      margin-top: 0;
+    }
+
+    .action-form {
+      margin-top: 12px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .form-row {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .form-field {
+      display: grid;
+      gap: 6px;
+    }
+
+    .form-field label {
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+
+    .form-field input,
+    .form-field select,
+    .form-field textarea {
+      border: 1px solid #bcc6ff;
+      border-radius: 10px;
+      padding: 10px 12px;
+      font: inherit;
+      background: #fff;
+      color: var(--text-dark);
+      width: 100%;
+    }
+
+    .form-field textarea {
+      min-height: 140px;
+      resize: vertical;
+    }
+
+    .form-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .form-note {
+      font-size: 0.9rem;
+      color: #37407d;
+    }
+
+    .updated {
+      text-align: center;
+      padding: 8px 12px 22px;
+      font-weight: 700;
+    }
+
+    footer {
+      background: var(--header-footer);
+      color: #e7ebff;
+      padding: 28px 0 20px;
+    }
+
+    .trust-links,
+    .policy-links,
+    .providers-logos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .trust-links a,
+    .providers-logos .logo-tile {
+      background: rgba(255, 255, 255, 0.95);
+    }
+
+    .trust-links a {
+      display: grid;
+      place-items: center;
+      width: 105px;
+      height: 62px;
+      border-radius: 10px;
+      padding: 8px;
+      border: 1px solid rgba(22, 39, 164, 0.22);
+    }
+
+    .trust-links img {
+      max-height: 42px;
+      object-fit: contain;
+    }
+
+    .footer-block + .footer-block {
+      margin-top: 20px;
+    }
+
+    .policy-links a {
+      padding: 4px 2px;
+      border-bottom: 1px solid transparent;
+      font-weight: 700;
+    }
+
+    .policy-links a:hover {
+      border-color: #cbd4ff;
+    }
+
+    .providers-logos .logo-tile {
+      width: 140px;
+      min-height: 76px;
+      padding: 10px;
+      border: 1px solid rgba(22, 39, 164, 0.2);
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+    }
+
+    .providers-logos img {
+      max-height: 42px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .copyright {
+      margin-top: 18px;
+      text-align: center;
+      font-size: 0.93rem;
+      color: #d5dbff;
+    }
+
+    @media (max-width: 720px) {
+      .header-inner {
+        min-height: 54px;
+        padding: 7px 0;
+        gap: 8px;
+      }
+
+      .main-nav {
+        display: none;
+      }
+
+      .logo img {
+        height: 28px;
+      }
+
+      .auth-buttons {
+        gap: 6px;
+      }
+
+      .btn-auth {
+        padding: 7px 10px;
+        font-size: 0.8rem;
+      }
+
+      .article-content th,
+      .article-content td {
+        padding: 8px;
+      }
+
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+
+      .trust-links a {
+        width: 92px;
+        height: 56px;
+      }
+
+      .providers-logos .logo-tile {
+        width: 110px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <a class="logo" href="../index.html" aria-label="Spinbara Casino hjem">
+        <img src="../spinbara images/spinbara.svg" alt="Spinbara Casino logo">
+      </a>
+      <nav class="main-nav" aria-label="Hovedmeny">
+        <a href="../bonus/">Kampanjer</a>
+      </nav>
+      <div class="auth-buttons">
+        <a class="btn btn-auth" href="../login/">Logg inn</a>
+        <a class="btn btn-auth" href="/go/">Register</a>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section>
+      <div class="container section-card article-content">
+        <h1>Kontakt Oss – Spinbara Casino Norge</h1>
+
+        <p>Velkommen til den offisielle kontaktsiden for Spinbara Casino i Norge. Vi er stolte av å tilby en førsteklasses spillopplevelse til alle våre norske spillere, og en viktig del av den opplevelsen er å sørge for at du alltid kan nå oss når du trenger hjelp. Enten du har spørsmål om kontoen din, trenger assistanse med innskudd og uttak, eller bare ønsker mer informasjon om våre kampanjer og bonuser, er vi her for deg.</p>
+
+        <p>Hos Spinbara Casino setter vi kundeservice i høysetet. Vi forstår at det kan oppstå situasjoner der du trenger rask og effektiv hjelp, og derfor har vi bygget opp et dedikert supportteam som er klart til å bistå deg. Vårt mål er å gi deg en smidig og trygg spillopplevelse, og det begynner med tilgjengelig og kompetent kundestøtte.</p>
+
+        <div class="form-card" aria-label="Kontaktskjema">
+          <h2>Send oss en melding</h2>
+          <form class="action-form" action="/go/" method="get">
+            <input type="hidden" name="form" value="contact">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="contact-name">Fullt navn</label>
+                <input id="contact-name" name="name" type="text" autocomplete="name" required>
+              </div>
+              <div class="form-field">
+                <label for="contact-email">E-post</label>
+                <input id="contact-email" name="email" type="email" autocomplete="email" required>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="contact-topic">Tema</label>
+              <select id="contact-topic" name="topic" required>
+                <option value="">Velg tema</option>
+                <option value="konto">Konto</option>
+                <option value="betaling">Innskudd/Uttak</option>
+                <option value="bonus">Bonus og kampanjer</option>
+                <option value="teknisk">Teknisk hjelp</option>
+                <option value="annet">Annet</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="contact-message">Melding</label>
+              <textarea id="contact-message" name="message" required></textarea>
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-auth" type="submit">Send melding</button>
+            </div>
+            <p class="form-note">Ved innsending fortsetter du til vår sikre spillside.</p>
+          </form>
+        </div>
+
+        <h2>Hvorfor Kontakte Oss?</h2>
+
+        <p>Det finnes mange grunner til at du kanskje ønsker å ta kontakt med oss hos Spinbara Casino. Her er noen av de vanligste henvendelsene vi mottar fra våre norske spillere:</p>
+
+        <ul>
+<li>Spørsmål om registrering og kontooppsett</li>
+<li>Hjelp med innskudd og uttak av penger</li>
+<li>Informasjon om velkomstbonuser og løpende kampanjer</li>
+<li>Tekniske problemer med spill eller plattformen</li>
+<li>Spørsmål om ansvarlig spilling og selvekskludering</li>
+<li>Verifisering av konto og identitetsdokumenter</li>
+<li>Generelle spørsmål om regler og vilkår</li>
+</ul>
+
+        <p>Uansett hva du lurer på, er vi klare til å hjelpe deg på en rask og profesjonell måte. Vi ønsker at alle våre spillere skal føle seg ivaretatt og trygge når de spiller hos oss.</p>
+
+        <h2>Kontakt Oss Via Live Chat</h2>
+
+        <p>Den raskeste måten å komme i kontakt med oss på er gjennom vår live chat-funksjon. Denne er tilgjengelig direkte på nettstedet vårt og lar deg snakke med en av våre supportmedarbeidere i sanntid. Vi anbefaler live chat for alle henvendelser som krever umiddelbar hjelp, for eksempel tekniske problemer under en spilløkt eller spørsmål om en pågående transaksjon.</p>
+
+        <p>Vår live chat er tilgjengelig store deler av døgnet, og vi jobber kontinuerlig med å utvide tilgjengeligheten slik at vi kan hjelpe deg enda mer effektivt. Du finner chat-ikonet nederst i høyre hjørne på alle sider av nettstedet vårt. Klikk på det, og en av våre vennlige medarbeidere vil hjelpe deg så raskt som mulig.</p>
+
+        <h2>Kontakt Oss Via E-post</h2>
+
+        <p>For mer detaljerte henvendelser, eller dersom du ønsker å sende dokumentasjon og vedlegg, er e-post et utmerket alternativ. Du kan nå vårt supportteam på den offisielle e-postadressen vår, som du finner oppgitt i bunnteksten på nettstedet. Vi bestreber oss på å svare på alle e-poster innen 24 timer, men i de fleste tilfeller vil du motta svar betydelig raskere enn dette.</p>
+
+        <p>Når du sender oss en e-post, ber vi deg om å inkludere så mye relevant informasjon som mulig. Dette inkluderer brukernavnet ditt, en beskrivelse av problemet eller spørsmålet ditt, og eventuelle skjermbilder eller dokumenter som kan hjelpe oss med å forstå situasjonen bedre. Jo mer informasjon du gir oss, jo raskere kan vi hjelpe deg.</p>
+
+        <h2>Vanlige Spørsmål – FAQ</h2>
+
+        <p>Før du kontakter oss, anbefaler vi at du tar en titt på vår FAQ-seksjon. Her har vi samlet svar på de mest stilte spørsmålene fra våre norske spillere. Du vil kanskje finne svaret du leter etter der, uten å måtte vente på svar fra supportteamet vårt. FAQ-seksjonen dekker emner som kontoregistrering, betalingsmetoder, bonusvilkår, ansvarlig spilling og mye mer.</p>
+
+        <p>Vi oppdaterer FAQ-seksjonen vår jevnlig for å sikre at informasjonen alltid er aktuell og nøyaktig. Dersom du ikke finner svaret du leter etter der, er det bare å ta kontakt med oss direkte.</p>
+
+        <h2>Ansvarlig Spilling – Vi Bryr Oss Om Deg</h2>
+
+        <p>Hos Spinbara Casino tar vi ansvarlig spilling svært alvorlig. Vi ønsker at alle våre spillere skal ha en positiv og trygg spillopplevelse, og vi er forpliktet til å hjelpe de som opplever problemer knyttet til spilleadferd. Dersom du eller noen du kjenner sliter med spilleavhengighet, oppfordrer vi deg til å ta kontakt med oss umiddelbart.</p>
+
+        <p>Vi tilbyr flere verktøy for ansvarlig spilling, inkludert innskuddsgrenser, tapgrenser, spillegrenser og muligheten til å ta en pause fra spilling eller ekskludere deg selv fra plattformen. Disse verktøyene er tilgjengelige direkte i kontoinnstillingene dine, men du er alltid velkommen til å kontakte oss dersom du trenger hjelp med å sette dem opp.</p>
+
+        <p>Vi samarbeider også med anerkjente organisasjoner for ansvarlig spilling i Norge, og vi kan veilede deg til riktige ressurser og støttetjenester dersom det er behov for det. Ditt velvære er viktigere for oss enn noe annet.</p>
+
+        <h2>Sikkerhet og Personvern</h2>
+
+        <p>Vi forstår at sikkerhet er en topp prioritet for våre spillere. Alle henvendelser vi mottar behandles med full konfidensialitet, og vi deler aldri din personlige informasjon med tredjeparter uten ditt samtykke, med unntak av der det er påkrevd av lov. Vår plattform er beskyttet med den nyeste krypteringsteknologien, og vi overholder alle gjeldende personvernregler og reguleringer i Norge.</p>
+
+        <p>Dersom du har spørsmål om hvordan vi behandler dine personopplysninger, kan du lese vår personvernerklæring på nettstedet, eller ta kontakt med oss direkte for mer informasjon.</p>
+
+        <h2>Vi Er Her For Deg – Alltid</h2>
+
+        <p>Spinbara Casino er stolt av å være et pålitelig og spillervennlig casino for norske spillere. Vår offisielle tilstedeværelse i Norge betyr at vi forstår behovene og forventningene til norske spillere, og vi jobber hardt for å møte og overgå disse forventningene hver eneste dag.</p>
+
+        <p>Vi ser frem til å høre fra deg og til å hjelpe deg med alle dine spørsmål og behov. Ikke nøl med å ta kontakt – vi er alltid klare til å hjelpe deg med et smil. Hos Spinbara Casino er du ikke bare en spiller, du er en del av familien vår, og vi behandler deg deretter.</p>
+
+        <p>Takk for at du velger Spinbara Casino som din foretrukne spilldestinasjon i Norge. Vi gleder oss til å gi deg den beste mulige spillopplevelsen, og vi er alltid bare et klikk unna dersom du trenger oss.</p>
+      </div>
+    </section>
+  </main>
+
+  <section class="updated" aria-live="polite">
+    <div class="container"><span id="updated-date">Siden oppdatert:</span></div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-block">
+        <div class="trust-links" aria-label="Trygg spill lenker">
+          <a href="https://www.gamstop.co.uk/" target="_blank" rel="noopener noreferrer">
+            <img src="../trust badges/gamstop.png" alt="Gamstop">
+          </a>
+          <a href="https://www.gamcare.org.uk/" target="_blank" rel="noopener noreferrer">
+            <img src="../trust badges/GamCare.png" alt="GamCare">
+          </a>
+          <a href="https://www.egba.eu/" target="_blank" rel="noopener noreferrer">
+            <img src="../trust badges/egba.svg" alt="EGBA">
+          </a>
+          <a href="https://www.begambleaware.org/" target="_blank" rel="noopener noreferrer">
+            <img src="../trust badges/gambleaware.png" alt="BeGambleAware">
+          </a>
+          <a href="https://www.gamblingcommission.gov.uk/" target="_blank" rel="noopener noreferrer">
+            <img src="../trust badges/uk-gambling-commission.svg" alt="UK Gambling Commission">
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-block">
+        <nav class="policy-links" aria-label="Policy lenker">
+          <a href="../about-us/">Om oss</a>
+          <a href="../contact-us/">Kontakt oss</a>
+          <a href="../bonus-policy/">Bonuspolicy</a>
+          <a href="../privacy-policy/">Personvernpolicy</a>
+          <a href="../responsible-gambling/">Ansvarlig spilling</a>
+          <a href="../terms-and-conditions/">Vilkår og betingelser</a>
+        </nav>
+      </div>
+
+      <div class="footer-block">
+        <div class="providers-logos" aria-label="Spillleverandører">
+          <div class="logo-tile"><img src="../providers/pragmatic-play-logo-png.png" alt="Pragmatic Play"></div>
+          <div class="logo-tile"><img src="../providers/Games-Global.svg" alt="Games Global"></div>
+          <div class="logo-tile"><img src="../providers/playngo.webp" alt="Play'n GO"></div>
+          <div class="logo-tile"><img src="../providers/netentlogo.png" alt="NetEnt"></div>
+          <div class="logo-tile"><img src="../providers/Yggdrasil Gaming_Logo_1.png" alt="Yggdrasil Gaming"></div>
+          <div class="logo-tile"><img src="../providers/quickspin.png" alt="Quickspin"></div>
+          <div class="logo-tile"><img src="../providers/microgaming-logo.png" alt="Microgaming"></div>
+          <div class="logo-tile"><img src="../providers/evolution.png" alt="Evolution"></div>
+        </div>
+      </div>
+
+      <p class="copyright">2026 Spinbara Casino Casino. Alle rettigheter forbeholdt.</p>
+    </div>
+  </footer>
+
+
+  <script>
+    (function () {
+      const dateElement = document.getElementById("updated-date");
+      const today = new Date();
+      const formatted = today.toLocaleDateString("nb-NO", {
+        day: "numeric",
+        month: "long",
+        year: "numeric"
+      });
+      dateElement.textContent = "Siden oppdatert: " + formatted;
+    })();
+  </script>
+
+</body>
+</html>

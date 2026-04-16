@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="nb-NO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Les vår offisielle personvernpolicy for Spinbara Casino i Norge. Vi forklarer hvordan vi samler inn, bruker og beskytter dine personopplysninger.">
+  <title>Personvernpolicy – Spinbara Casino Norge</title>
+  <link rel="canonical" href="https://spinbaracasinos.no/privacy-policy/">
+  <link rel="icon" type="image/x-icon" href="../spinbara images/favicon (2).ico">
+  <style>
+
+    :root {
+      --header-footer: #071064;
+      --action: #92ca01;
+      --main-bg: #dcdaf9;
+      --text-dark: #0a1238;
+      --surface: #ffffff;
+      --radius: 16px;
+      --shadow: 0 12px 24px rgba(7, 16, 100, 0.14);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Trebuchet MS", Verdana, sans-serif;
+      color: var(--text-dark);
+      background:
+        radial-gradient(circle at 12% 10%, rgba(146, 202, 1, 0.2), transparent 32%),
+        radial-gradient(circle at 90% 20%, rgba(7, 16, 100, 0.12), transparent 40%),
+        var(--main-bg);
+      line-height: 1.55;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.2;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(1140px, 92%);
+      margin: 0 auto;
+    }
+
+    header {
+      background: var(--header-footer);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      box-shadow: 0 8px 18px rgba(7, 16, 100, 0.28);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 10px 0;
+      min-height: 64px;
+    }
+
+    .logo img {
+      width: auto;
+      height: 44px;
+    }
+
+    .main-nav {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      margin-left: auto;
+      margin-right: 16px;
+      color: #f3f6ff;
+      font-weight: 700;
+    }
+
+    .main-nav a:hover {
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    .auth-buttons {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      border: 0;
+      border-radius: 999px;
+      cursor: pointer;
+      font-weight: 800;
+      padding: 10px 16px;
+      transition: transform 0.2s ease, filter 0.2s ease;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.04);
+    }
+
+    .btn-auth {
+      background: var(--action);
+      color: var(--header-footer);
+    }
+
+    main {
+      padding: 34px 0;
+    }
+
+    .section-card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: clamp(18px, 3vw, 30px);
+    }
+
+    .article-content h1 {
+      font-size: clamp(1.7rem, 3vw, 2.6rem);
+      margin-bottom: 16px;
+    }
+
+    .article-content h2 {
+      font-size: clamp(1.25rem, 2.4vw, 1.75rem);
+      margin-top: 24px;
+      margin-bottom: 10px;
+    }
+
+    .article-content h3 {
+      font-size: clamp(1.08rem, 2vw, 1.3rem);
+      margin-top: 18px;
+      margin-bottom: 8px;
+    }
+
+    .article-content p,
+    .article-content ul,
+    .article-content ol,
+    .article-content table {
+      margin-top: 12px;
+    }
+
+    .article-content ul,
+    .article-content ol {
+      padding-left: 22px;
+    }
+
+    .article-content li + li {
+      margin-top: 6px;
+    }
+
+    .article-content table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 520px;
+      background: #f8f9ff;
+    }
+
+    .article-content th,
+    .article-content td {
+      border: 1px solid #d3d8ff;
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .article-content th {
+      background: #e8ebff;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin-top: 12px;
+    }
+
+    .updated {
+      text-align: center;
+      padding: 8px 12px 22px;
+      font-weight: 700;
+    }
+
+    footer {
+      background: var(--header-footer);
+      color: #e7ebff;
+      padding: 28px 0 20px;
+    }
+
+    .trust-links,
+    .policy-links,
+    .providers-logos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .trust-links a,
+    .providers-logos .logo-tile {
+      background: rgba(255, 255, 255, 0.95);
+    }
+
+    .trust-links a {
+      display: grid;
+      place-items: center;
+      width: 105px;
+      height: 62px;
+      border-radius: 10px;
+      padding: 8px;
+      border: 1px solid rgba(22, 39, 164, 0.22);
+    }
+
+    .trust-links img {
+      max-height: 42px;
+      object-fit: contain;
+    }
+
+    .footer-block + .footer-block {
+      margin-top: 20px;
+    }
+
+    .policy-links a {
+      padding: 4px 2px;
+      border-bottom: 1px solid transparent;
+      font-weight: 700;
+    }
+
+    .policy-links a:hover {
+      border-color: #cbd4ff;
+    }
+
+    .providers-logos .logo-tile {
+      width: 140px;
+      min-height: 76px;
+      padding: 10px;
+      border: 1px solid rgba(22, 39, 164, 0.2);
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+    }
+
+    .providers-logos img {
+      max-height: 42px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .copyright {
+      margin-top: 18px;
+      text-align: center;
+      font-size: 0.93rem;
+      color: #d5dbff;
+    }
+
+    @media (max-width: 720px) {
+      .header-inner {
+        min-height: 54px;
+        padding: 7px 0;
+        gap: 8px;
+      }
+
+      .main-nav {
+        display: none;
+      }
+
+      .logo img {
+        height: 28px;
+      }
+
+      .auth-buttons {
+        gap: 6px;
+      }
+
+      .btn-auth {
+        padding: 7px 10px;
+        font-size: 0.8rem;
+      }
+
+      .article-content th,
+      .article-content td {
+        padding: 8px;
+      }
+
+      .trust-links a {
+        width: 92px;
+        height: 56px;
+      }
+
+      .providers-logos .logo-tile {
+        width: 110px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <a class="logo" href="../index.html" aria-label="Spinbara Casino hjem">
+        <img src="../spinbara images/spinbara.svg" alt="Spinbara Casino logo">
+      </a>
+      <nav class="main-nav" aria-label="Hovedmeny">
+        <a href="../bonus/">Kampanjer</a>
+      </nav>
+      <div class="auth-buttons">
+        <a class="btn btn-auth" href="../login/">Logg inn</a>
+        <a class="btn btn-auth" href="/go/">Register</a>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section>
+      <div class="container section-card article-content">
+        <h1>Personvernpolicy – Spinbara Casino</h1>
+
+        <p>Velkommen til Spinbara Casino sin offisielle nettside for Norge. Vi tar personvernet ditt på alvor og er forpliktet til å beskytte dine personopplysninger i samsvar med gjeldende norsk og europeisk personvernlovgivning, inkludert EUs personvernforordning (GDPR) og den norske personopplysningsloven. Denne personvernpolicyen forklarer hvordan vi samler inn, bruker, lagrer og beskytter informasjonen du deler med oss når du bruker våre tjenester.</p>
+
+        <h2>1. Hvem vi er</h2>
+
+        <p>Spinbara Casino er et nettbasert kasino som tilbyr underholdning og spilltjenester til brukere i Norge. Denne siden er den offisielle nettsiden for Spinbara Casino i Norge. Vi er behandlingsansvarlig for dine personopplysninger og er ansvarlige for at opplysningene behandles i henhold til gjeldende lovgivning. Dersom du har spørsmål om hvordan vi behandler dine personopplysninger, kan du kontakte oss via kontaktinformasjonen som er oppgitt nederst i denne policyen.</p>
+
+        <h2>2. Hvilke opplysninger vi samler inn</h2>
+
+        <p>Når du registrerer deg og bruker Spinbara Casino, samler vi inn ulike typer personopplysninger. Dette inkluderer:</p>
+
+        <ul>
+<li><strong>Identifikasjonsopplysninger:</strong> Navn, fødselsdato, nasjonalitet og kopi av identifikasjonsdokumenter som pass eller førerkort.</li>
+<li><strong>Kontaktopplysninger:</strong> E-postadresse, telefonnummer og postadresse.</li>
+<li><strong>Finansielle opplysninger:</strong> Bankkontonummer, betalingsmetoder og transaksjonshistorikk.</li>
+<li><strong>Kontoopplysninger:</strong> Brukernavn, passord, spillhistorikk og preferanser.</li>
+<li><strong>Tekniske opplysninger:</strong> IP-adresse, enhetstype, nettlesertype, operativsystem og informasjonskapsler (cookies).</li>
+<li><strong>Atferdsdata:</strong> Informasjon om hvordan du navigerer på vår nettside og hvilke tjenester du bruker.</li>
+</ul>
+
+        <h2>3. Hvorfor vi samler inn opplysninger</h2>
+
+        <p>Vi samler inn og behandler dine personopplysninger for følgende formål:</p>
+
+        <ul>
+<li>For å opprette og administrere din konto hos Spinbara Casino.</li>
+<li>For å verifisere din identitet og alder i samsvar med norske lovkrav om ansvarlig spill.</li>
+<li>For å behandle innskudd, uttak og andre finansielle transaksjoner.</li>
+<li>For å gi deg kundeservice og teknisk støtte.</li>
+<li>For å sende deg viktig informasjon om din konto, endringer i våre vilkår og andre tjenesterelaterte meldinger.</li>
+<li>For å overholde våre juridiske forpliktelser, inkludert anti-hvitvasking (AML) og krav om kjenn-din-kunde (KYC).</li>
+<li>For å forebygge svindel og sikre sikkerheten på vår plattform.</li>
+<li>For å forbedre våre tjenester og tilpasse brukeropplevelsen til deg.</li>
+<li>For å sende deg markedsføringskommunikasjon, dersom du har samtykket til dette.</li>
+</ul>
+
+        <h2>4. Rettslig grunnlag for behandling</h2>
+
+        <p>Vi behandler dine personopplysninger basert på følgende rettslige grunnlag i henhold til GDPR:</p>
+
+        <ul>
+<li><strong>Avtale:</strong> Behandling er nødvendig for å oppfylle kontrakten vi har med deg som bruker av Spinbara Casino.</li>
+<li><strong>Rettslig forpliktelse:</strong> Vi er pålagt å behandle visse opplysninger for å overholde norsk og europeisk lovgivning.</li>
+<li><strong>Berettiget interesse:</strong> Vi behandler opplysninger der vi har en legitim forretningsinteresse, for eksempel for å forebygge svindel og forbedre tjenestene våre.</li>
+<li><strong>Samtykke:</strong> For markedsføring og bruk av visse informasjonskapsler behandler vi opplysninger basert på ditt uttrykkelige samtykke.</li>
+</ul>
+
+        <h2>5. Deling av opplysninger med tredjeparter</h2>
+
+        <p>Vi deler ikke dine personopplysninger med uautoriserte tredjeparter. Vi kan imidlertid dele opplysninger med følgende parter under strenge konfidensialitetsavtaler:</p>
+
+        <ul>
+<li>Betalingsleverandører og finansinstitusjoner for å behandle transaksjoner.</li>
+<li>Identitetsverifiseringstjenester for å oppfylle KYC-krav.</li>
+<li>IT-leverandører og skylagringstjenester som støtter driften av vår plattform.</li>
+<li>Regulatoriske myndigheter og offentlige organer dersom vi er juridisk forpliktet til det.</li>
+<li>Markedsføringspartnere, dersom du har gitt ditt samtykke til dette.</li>
+</ul>
+
+        <h2>6. Oppbevaring av opplysninger</h2>
+
+        <p>Vi oppbevarer dine personopplysninger så lenge det er nødvendig for å oppfylle formålene beskrevet i denne policyen, eller så lenge det kreves av gjeldende lovgivning. Finansielle og identifikasjonsrelaterte opplysninger kan bli oppbevart i opptil fem år etter at kontoen din er avsluttet, i samsvar med norske hvitvaskingsregler. Etter utløpet av oppbevaringsperioden sletter eller anonymiserer vi dine opplysninger på en sikker måte.</p>
+
+        <h2>7. Dine rettigheter</h2>
+
+        <p>Som bruker av Spinbara Casino har du følgende rettigheter i henhold til GDPR og norsk personvernlovgivning:</p>
+
+        <ul>
+<li><strong>Rett til innsyn:</strong> Du kan be om en kopi av de personopplysningene vi har om deg.</li>
+<li><strong>Rett til retting:</strong> Du kan be oss om å korrigere unøyaktige eller ufullstendige opplysninger.</li>
+<li><strong>Rett til sletting:</strong> Du kan be om at vi sletter dine opplysninger, med forbehold om juridiske forpliktelser.</li>
+<li><strong>Rett til begrensning:</strong> Du kan be om at vi begrenser behandlingen av dine opplysninger i visse situasjoner.</li>
+<li><strong>Rett til dataportabilitet:</strong> Du kan be om å motta dine opplysninger i et strukturert, maskinlesbart format.</li>
+<li><strong>Rett til å protestere:</strong> Du kan protestere mot behandling basert på berettiget interesse eller for markedsføringsformål.</li>
+<li><strong>Rett til å trekke tilbake samtykke:</strong> Du kan når som helst trekke tilbake samtykke du har gitt oss.</li>
+</ul>
+
+        <p>For å utøve dine rettigheter, vennligst kontakt oss via e-post. Vi vil behandle din henvendelse innen 30 dager. Du har også rett til å klage til Datatilsynet i Norge dersom du mener at vi behandler dine opplysninger i strid med gjeldende lovgivning.</p>
+
+        <h2>8. Informasjonskapsler (cookies)</h2>
+
+        <p>Spinbara Casino bruker informasjonskapsler for å forbedre din brukeropplevelse, analysere trafikk og levere tilpasset innhold. Vi bruker både nødvendige informasjonskapsler og valgfrie informasjonskapsler for markedsføring og analyse. Du kan administrere dine cookie-preferanser via innstillingene i nettleseren din eller gjennom vårt cookie-samtykkeverktøy på nettsiden. Vær oppmerksom på at deaktivering av visse informasjonskapsler kan påvirke funksjonaliteten til nettstedet vårt.</p>
+
+        <h2>9. Sikkerhet</h2>
+
+        <p>Vi tar sikkerheten til dine personopplysninger svært alvorlig. Vi bruker bransjestandardiserte sikkerhetstiltak, inkludert SSL-kryptering, brannmurer og tilgangskontroller, for å beskytte dine opplysninger mot uautorisert tilgang, tap eller misbruk. Til tross for disse tiltakene kan ingen overføring av data over internett garanteres å være 100 % sikker. Vi oppfordrer deg til å holde ditt passord konfidensielt og varsle oss umiddelbart dersom du mistenker uautorisert tilgang til din konto.</p>
+
+        <h2>10. Endringer i personvernpolicyen</h2>
+
+        <p>Vi forbeholder oss retten til å oppdatere denne personvernpolicyen fra tid til annen for å reflektere endringer i våre tjenester, lovgivning eller praksis. Eventuelle vesentlige endringer vil bli kommunisert til deg via e-post eller gjennom en tydelig melding på vår nettside. Vi anbefaler at du jevnlig gjennomgår denne policyen for å holde deg oppdatert om hvordan vi beskytter dine opplysninger.</p>
+
+        <h2>11. Kontakt oss</h2>
+
+        <p>Dersom du har spørsmål, bekymringer eller ønsker å utøve dine rettigheter i henhold til denne personvernpolicyen, er du velkommen til å kontakte oss. Vi er tilgjengelige via e-post og vår kundeservicefunksjon på Spinbara Casino sin offisielle nettside for Norge. Vi er forpliktet til å svare på alle henvendelser innen rimelig tid og til å behandle dine personopplysninger med den høyeste grad av respekt og konfidensialitet.</p>
+
+        <p><em>Sist oppdatert: 2024</em></p>
+      </div>
+    </section>
+  </main>
+
+  <section class="updated" aria-live="polite">
+    <div class="container"><span id="updated-date">Siden oppdatert:</span></div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-block">
+        <div class="trust-links" aria-label="Trygg spill lenker">
+          <a href="https://www.gamstop.co.uk/" target="_blank" rel="noopener noreferrer">
+            <img src="../trust badges/gamstop.png" alt="Gamstop">
+          </a>
+          <a href="https://www.gamcare.org.uk/" target="_blank" rel="noopener noreferrer">
+            <img src="../trust badges/GamCare.png" alt="GamCare">
+          </a>
+          <a href="https://www.egba.eu/" target="_blank" rel="noopener noreferrer">
+            <img src="../trust badges/egba.svg" alt="EGBA">
+          </a>
+          <a href="https://www.begambleaware.org/" target="_blank" rel="noopener noreferrer">
+            <img src="../trust badges/gambleaware.png" alt="BeGambleAware">
+          </a>
+          <a href="https://www.gamblingcommission.gov.uk/" target="_blank" rel="noopener noreferrer">
+            <img src="../trust badges/uk-gambling-commission.svg" alt="UK Gambling Commission">
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-block">
+        <nav class="policy-links" aria-label="Policy lenker">
+          <a href="../about-us/">Om oss</a>
+          <a href="../contact-us/">Kontakt oss</a>
+          <a href="../bonus-policy/">Bonuspolicy</a>
+          <a href="../privacy-policy/">Personvernpolicy</a>
+          <a href="../responsible-gambling/">Ansvarlig spilling</a>
+          <a href="../terms-and-conditions/">Vilkår og betingelser</a>
+        </nav>
+      </div>
+
+      <div class="footer-block">
+        <div class="providers-logos" aria-label="Spillleverandører">
+          <div class="logo-tile"><img src="../providers/pragmatic-play-logo-png.png" alt="Pragmatic Play"></div>
+          <div class="logo-tile"><img src="../providers/Games-Global.svg" alt="Games Global"></div>
+          <div class="logo-tile"><img src="../providers/playngo.webp" alt="Play'n GO"></div>
+          <div class="logo-tile"><img src="../providers/netentlogo.png" alt="NetEnt"></div>
+          <div class="logo-tile"><img src="../providers/Yggdrasil Gaming_Logo_1.png" alt="Yggdrasil Gaming"></div>
+          <div class="logo-tile"><img src="../providers/quickspin.png" alt="Quickspin"></div>
+          <div class="logo-tile"><img src="../providers/microgaming-logo.png" alt="Microgaming"></div>
+          <div class="logo-tile"><img src="../providers/evolution.png" alt="Evolution"></div>
+        </div>
+      </div>
+
+      <p class="copyright">2026 Spinbara Casino Casino. Alle rettigheter forbeholdt.</p>
+    </div>
+  </footer>
+
+
+  <script>
+    (function () {
+      const dateElement = document.getElementById("updated-date");
+      const today = new Date();
+      const formatted = today.toLocaleDateString("nb-NO", {
+        day: "numeric",
+        month: "long",
+        year: "numeric"
+      });
+      dateElement.textContent = "Siden oppdatert: " + formatted;
+    })();
+  </script>
+
+</body>
+</html>

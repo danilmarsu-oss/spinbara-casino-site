@@ -1,0 +1,455 @@
+<!doctype html>
+<html lang="nb-NO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Les om Spinbara Casino – din offisielle norske spilldestinasjon. Vi tilbyr et trygt, underholdende og ansvarlig spillmiljø med hundrevis av spill og eksklusive bonuser.">
+  <title>Om Oss – Spinbara Casino | Offisiell Norsk Nettside</title>
+  <link rel="canonical" href="https://spinbaracasinos.no/about-us/">
+  <link rel="icon" type="image/x-icon" href="../spinbara images/favicon (2).ico">
+  <style>
+
+    :root {
+      --header-footer: #071064;
+      --action: #92ca01;
+      --main-bg: #dcdaf9;
+      --text-dark: #0a1238;
+      --surface: #ffffff;
+      --radius: 16px;
+      --shadow: 0 12px 24px rgba(7, 16, 100, 0.14);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Trebuchet MS", Verdana, sans-serif;
+      color: var(--text-dark);
+      background:
+        radial-gradient(circle at 12% 10%, rgba(146, 202, 1, 0.2), transparent 32%),
+        radial-gradient(circle at 90% 20%, rgba(7, 16, 100, 0.12), transparent 40%),
+        var(--main-bg);
+      line-height: 1.55;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.2;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(1140px, 92%);
+      margin: 0 auto;
+    }
+
+    header {
+      background: var(--header-footer);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      box-shadow: 0 8px 18px rgba(7, 16, 100, 0.28);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 10px 0;
+      min-height: 64px;
+    }
+
+    .logo img {
+      width: auto;
+      height: 44px;
+    }
+
+    .main-nav {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      margin-left: auto;
+      margin-right: 16px;
+      color: #f3f6ff;
+      font-weight: 700;
+    }
+
+    .main-nav a:hover {
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    .auth-buttons {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      border: 0;
+      border-radius: 999px;
+      cursor: pointer;
+      font-weight: 800;
+      padding: 10px 16px;
+      transition: transform 0.2s ease, filter 0.2s ease;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.04);
+    }
+
+    .btn-auth {
+      background: var(--action);
+      color: var(--header-footer);
+    }
+
+    main {
+      padding: 34px 0;
+    }
+
+    .section-card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: clamp(18px, 3vw, 30px);
+    }
+
+    .article-content h1 {
+      font-size: clamp(1.7rem, 3vw, 2.6rem);
+      margin-bottom: 16px;
+    }
+
+    .article-content h2 {
+      font-size: clamp(1.25rem, 2.4vw, 1.75rem);
+      margin-top: 24px;
+      margin-bottom: 10px;
+    }
+
+    .article-content h3 {
+      font-size: clamp(1.08rem, 2vw, 1.3rem);
+      margin-top: 18px;
+      margin-bottom: 8px;
+    }
+
+    .article-content p,
+    .article-content ul,
+    .article-content ol,
+    .article-content table {
+      margin-top: 12px;
+    }
+
+    .article-content ul,
+    .article-content ol {
+      padding-left: 22px;
+    }
+
+    .article-content li + li {
+      margin-top: 6px;
+    }
+
+    .article-content table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 520px;
+      background: #f8f9ff;
+    }
+
+    .article-content th,
+    .article-content td {
+      border: 1px solid #d3d8ff;
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .article-content th {
+      background: #e8ebff;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      margin-top: 12px;
+    }
+
+    .updated {
+      text-align: center;
+      padding: 8px 12px 22px;
+      font-weight: 700;
+    }
+
+    footer {
+      background: var(--header-footer);
+      color: #e7ebff;
+      padding: 28px 0 20px;
+    }
+
+    .trust-links,
+    .policy-links,
+    .providers-logos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+    }
+
+    .trust-links a,
+    .providers-logos .logo-tile {
+      background: rgba(255, 255, 255, 0.95);
+    }
+
+    .trust-links a {
+      display: grid;
+      place-items: center;
+      width: 105px;
+      height: 62px;
+      border-radius: 10px;
+      padding: 8px;
+      border: 1px solid rgba(22, 39, 164, 0.22);
+    }
+
+    .trust-links img {
+      max-height: 42px;
+      object-fit: contain;
+    }
+
+    .footer-block + .footer-block {
+      margin-top: 20px;
+    }
+
+    .policy-links a {
+      padding: 4px 2px;
+      border-bottom: 1px solid transparent;
+      font-weight: 700;
+    }
+
+    .policy-links a:hover {
+      border-color: #cbd4ff;
+    }
+
+    .providers-logos .logo-tile {
+      width: 140px;
+      min-height: 76px;
+      padding: 10px;
+      border: 1px solid rgba(22, 39, 164, 0.2);
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+    }
+
+    .providers-logos img {
+      max-height: 42px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .copyright {
+      margin-top: 18px;
+      text-align: center;
+      font-size: 0.93rem;
+      color: #d5dbff;
+    }
+
+    @media (max-width: 720px) {
+      .header-inner {
+        min-height: 54px;
+        padding: 7px 0;
+        gap: 8px;
+      }
+
+      .main-nav {
+        display: none;
+      }
+
+      .logo img {
+        height: 28px;
+      }
+
+      .auth-buttons {
+        gap: 6px;
+      }
+
+      .btn-auth {
+        padding: 7px 10px;
+        font-size: 0.8rem;
+      }
+
+      .article-content th,
+      .article-content td {
+        padding: 8px;
+      }
+
+      .trust-links a {
+        width: 92px;
+        height: 56px;
+      }
+
+      .providers-logos .logo-tile {
+        width: 110px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container header-inner">
+      <a class="logo" href="../index.html" aria-label="Spinbara Casino hjem">
+        <img src="../spinbara images/spinbara.svg" alt="Spinbara Casino logo">
+      </a>
+      <nav class="main-nav" aria-label="Hovedmeny">
+        <a href="../bonus/">Kampanjer</a>
+      </nav>
+      <div class="auth-buttons">
+        <a class="btn btn-auth" href="../login/">Logg inn</a>
+        <a class="btn btn-auth" href="/go/">Register</a>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section>
+      <div class="container section-card article-content">
+        <h1>Om Oss – Spinbara Casino</h1>
+
+        <p>Velkommen til Spinbara Casino – din offisielle norske spilldestinasjon på nett. Vi er stolte av å presentere en moderne og trygg spillplattform som er spesielt utviklet for norske spillere. Hos oss finner du et bredt utvalg av kasinospill, generøse bonuser og en kundeservice som alltid er klar til å hjelpe deg. Dette er den offisielle nettsiden til Spinbara Casino i Norge, og vi er her for å gi deg den beste spillopplevelsen mulig.</p>
+
+        <h2>Vår Historie og Visjon</h2>
+
+        <p>Spinbara Casino ble grunnlagt med én klar visjon: å skape et trygt, morsomt og rettferdig spillmiljø for alle norske spillere. Vi forstår at norske spillere har høye forventninger til kvalitet, sikkerhet og underholdning, og det er nettopp disse forventningene vi jobber hardt for å innfri hver eneste dag. Siden vi åpnet dørene våre, har vi kontinuerlig investert i teknologi, spillutvalg og kundeservice for å sikre at du alltid har en førsteklasses opplevelse hos oss.</p>
+
+        <p>Vår visjon er enkel: vi ønsker å være Norges mest pålitelige og underholdende nettbaserte kasino. Vi bygger vår virksomhet på verdier som ærlighet, transparens og ansvarlig spill. Disse verdiene gjennomsyrer alt vi gjør, fra måten vi behandler spillerne våre på, til hvordan vi velger spillleverandørene vi samarbeider med.</p>
+
+        <h2>Vårt Spillutvalg</h2>
+
+        <p>Hos Spinbara Casino tilbyr vi et imponerende utvalg av kasinospill som passer for alle typer spillere. Enten du er en erfaren spiller som jakter på de store jackpotene, eller en nybegynner som ønsker å utforske verden av nettbasert gambling, har vi noe for deg.</p>
+
+        <p>Vårt spillbibliotek inkluderer hundrevis av spilleautomater fra verdens ledende spillutviklere. Vi samarbeider med anerkjente leverandører som NetEnt, Microgaming, Play'n GO, Pragmatic Play og mange flere. Dette sikrer at du alltid har tilgang til de nyeste og mest populære spillene på markedet. Fra klassiske fruktkurvautomater til moderne videoslots med avanserte bonusfunksjoner og imponerende grafikk – vi har det hele.</p>
+
+        <p>For deg som foretrekker bordspill, tilbyr vi et bredt utvalg av klassikere som blackjack, rulett, baccarat og poker. Vi har også et dedikert live kasino-seksjon der du kan spille mot ekte dealere i sanntid. Vår live kasino-opplevelse gir deg følelsen av å sitte ved et ekte kasinobord, rett fra komforten av ditt eget hjem.</p>
+
+        <h2>Sikkerhet og Lisens</h2>
+
+        <p>Hos Spinbara Casino tar vi sikkerhet på største alvor. Vi vet at du stoler på oss med din personlige informasjon og dine penger, og vi gjør alt vi kan for å beskytte begge deler. Vår plattform bruker den nyeste SSL-krypteringsteknologien for å sikre at alle dine data og transaksjoner er fullstendig beskyttet mot uautorisert tilgang.</p>
+
+        <p>Vi opererer under en gyldig spilllisens som er utstedt av en anerkjent reguleringsmyndighet. Dette betyr at vi er underlagt strenge regler og krav som sikrer rettferdig spill, ansvarlig gambling og korrekt håndtering av spillermidler. Du kan alltid spille hos oss med full trygghet i visshet om at vi følger alle gjeldende lover og forskrifter.</p>
+
+        <h2>Bonuser og Kampanjer</h2>
+
+        <p>Vi tror på å belønne våre spillere, og derfor tilbyr vi en rekke attraktive bonuser og kampanjer. Nye spillere ønskes velkommen med en generøs velkomstbonus som gir deg ekstra midler å spille for fra første stund. Men det stopper ikke der – vi verdsetter lojalitet, og våre faste spillere kan se frem til regelmessige kampanjer, gratisspinn, cashback-tilbud og eksklusive VIP-fordeler.</p>
+
+        <p>Vårt lojalitetsprogram er designet for å belønne deg jo mer du spiller. Du samler poeng for hver innsats du gjør, og disse poengene kan veksles inn i bonuspenger eller andre eksklusive fordeler. Vi sørger alltid for at bonusvilkårene våre er klare og rettferdige, slik at du alltid vet hva du har å forholde deg til.</p>
+
+        <h2>Betalingsmetoder</h2>
+
+        <p>Vi ønsker å gjøre det så enkelt som mulig for deg å sette inn og ta ut penger. Derfor tilbyr vi et bredt utvalg av betalingsmetoder som er populære blant norske spillere. Du kan bruke bankkort, e-lommebøker, bankoverføring og andre lokale betalingsløsninger. Vi behandler alle inn- og utbetalinger raskt og sikkert, slik at du alltid har tilgang til pengene dine når du trenger dem.</p>
+
+        <p>Alle transaksjoner hos oss gjennomføres i norske kroner, noe som gjør det enkelt å holde oversikt over din spilleaktivitet uten å bekymre deg for valutaomregning eller ekstra gebyrer.</p>
+
+        <h2>Ansvarlig Spill</h2>
+
+        <p>Hos Spinbara Casino er ansvarlig spill en hjørnestein i alt vi gjør. Vi er forpliktet til å tilby et trygt spillmiljø der underholdning alltid kommer i fokus. Vi tilbyr en rekke verktøy som hjelper deg med å holde kontrollen over spillingen din, inkludert innskuddsgrenser, tapgrenser, øktgrenser og muligheten til å ta en pause eller ekskludere deg selv fra plattformen.</p>
+
+        <p>Vi samarbeider med anerkjente organisasjoner for ansvarlig spill og oppfordrer alle spillere til å spille innenfor sine egne grenser. Dersom du eller noen du kjenner opplever problemer med gambling, oppfordrer vi deg til å søke hjelp. Vi er her for å støtte deg, og vår kundeservice kan alltid veilede deg til riktige ressurser.</p>
+
+        <h2>Kundeservice</h2>
+
+        <p>Vi er stolte av å tilby en kundeservice i verdensklasse. Vårt dedikerte supportteam er tilgjengelig døgnet rundt, alle dager i uken, for å hjelpe deg med alle spørsmål eller problemer du måtte ha. Du kan nå oss via live chat, e-post eller telefon, og vi garanterer raske og profesjonelle svar hver gang.</p>
+
+        <p>Vi forstår at norske spillere ønsker å kommunisere på sitt eget språk, og derfor tilbyr vi full kundestøtte på norsk. Uansett om du har spørsmål om bonuser, betalinger, spill eller tekniske problemer, er vi alltid her for å hjelpe deg.</p>
+
+        <h2>Bli En Del av Spinbara-familien</h2>
+
+        <p>Vi inviterer deg til å bli en del av Spinbara Casino-familien og oppleve alt vi har å tilby. Registrer deg i dag på vår offisielle norske nettside og ta dine første skritt mot en uforglemmelig spillopplevelse. Vi ser frem til å ønske deg velkommen og til å gi deg den beste kasinoopplevelsen på nett. Hos Spinbara Casino er du alltid i trygge hender.</p>
+      </div>
+    </section>
+  </main>
+
+  <section class="updated" aria-live="polite">
+    <div class="container"><span id="updated-date">Siden oppdatert:</span></div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-block">
+        <div class="trust-links" aria-label="Trygg spill lenker">
+          <a href="https://www.gamstop.co.uk/" target="_blank" rel="noopener noreferrer">
+            <img src="../trust badges/gamstop.png" alt="Gamstop">
+          </a>
+          <a href="https://www.gamcare.org.uk/" target="_blank" rel="noopener noreferrer">
+            <img src="../trust badges/GamCare.png" alt="GamCare">
+          </a>
+          <a href="https://www.egba.eu/" target="_blank" rel="noopener noreferrer">
+            <img src="../trust badges/egba.svg" alt="EGBA">
+          </a>
+          <a href="https://www.begambleaware.org/" target="_blank" rel="noopener noreferrer">
+            <img src="../trust badges/gambleaware.png" alt="BeGambleAware">
+          </a>
+          <a href="https://www.gamblingcommission.gov.uk/" target="_blank" rel="noopener noreferrer">
+            <img src="../trust badges/uk-gambling-commission.svg" alt="UK Gambling Commission">
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-block">
+        <nav class="policy-links" aria-label="Policy lenker">
+          <a href="../about-us/">Om oss</a>
+          <a href="../contact-us/">Kontakt oss</a>
+          <a href="../bonus-policy/">Bonuspolicy</a>
+          <a href="../privacy-policy/">Personvernpolicy</a>
+          <a href="../responsible-gambling/">Ansvarlig spilling</a>
+          <a href="../terms-and-conditions/">Vilkår og betingelser</a>
+        </nav>
+      </div>
+
+      <div class="footer-block">
+        <div class="providers-logos" aria-label="Spillleverandører">
+          <div class="logo-tile"><img src="../providers/pragmatic-play-logo-png.png" alt="Pragmatic Play"></div>
+          <div class="logo-tile"><img src="../providers/Games-Global.svg" alt="Games Global"></div>
+          <div class="logo-tile"><img src="../providers/playngo.webp" alt="Play'n GO"></div>
+          <div class="logo-tile"><img src="../providers/netentlogo.png" alt="NetEnt"></div>
+          <div class="logo-tile"><img src="../providers/Yggdrasil Gaming_Logo_1.png" alt="Yggdrasil Gaming"></div>
+          <div class="logo-tile"><img src="../providers/quickspin.png" alt="Quickspin"></div>
+          <div class="logo-tile"><img src="../providers/microgaming-logo.png" alt="Microgaming"></div>
+          <div class="logo-tile"><img src="../providers/evolution.png" alt="Evolution"></div>
+        </div>
+      </div>
+
+      <p class="copyright">2026 Spinbara Casino Casino. Alle rettigheter forbeholdt.</p>
+    </div>
+  </footer>
+
+
+  <script>
+    (function () {
+      const dateElement = document.getElementById("updated-date");
+      const today = new Date();
+      const formatted = today.toLocaleDateString("nb-NO", {
+        day: "numeric",
+        month: "long",
+        year: "numeric"
+      });
+      dateElement.textContent = "Siden oppdatert: " + formatted;
+    })();
+  </script>
+
+</body>
+</html>
